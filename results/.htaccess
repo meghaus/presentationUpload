@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/slmalk/protect/.htpasswd
+require valid-user
+
+Options All -Indexes
